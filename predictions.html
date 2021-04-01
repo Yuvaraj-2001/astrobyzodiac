@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See predictions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container d-block" id="select">
+        <h1>Please select your zodiac sign and press <br>
+        prediction button to see our prediction</h1>
+        <br>
+        <br>
+        <h2>Select your zodiac sign</h2>
+        <div class="select">
+            <select id="standard-select">
+              <option>Aries</option>
+              <option>Leo</option>
+              <option>Sagittarius</option>
+              <option>Taurus</option>
+              <option>Virgo</option>
+              <option>Capricorn</option>
+              <option>Gemini</option>
+              <option>Libra</option>
+              <option>Cancer</option>
+              <option>Scorpio</option>
+              <option>Pisces</option>
+            </select>
+            <span class="focus"></span>
+      </div>
+      
+    </div>
+    <div class="container d-none" id="afterSubmit">
+
+    </div>
+    <script>
+        var json = {
+      "aries":{
+          "love": "we can say that this period will be very beautiful for you. Jupiter and Saturn in an excellent astrological position in the sky throughout the new year confirm a great opportunity for the lonely hearts that they intend to fall in love with. If you are alone in fact the optimism that grows day by day may be the necessary push to get to           know a person you like and this meeting could happen already at the beginning of the           year and despite the bad position in the sky of Mars that makes you unattractive.           Clearly while solitary hearts can make many encounters and have various opportunities           to learn about love very beautiful events can happen to those who already live their           love story and what could happen is very interesting. When Jupiter, in fact, forms an           aspect of sextile with the Sun it offers the possibility of starting to think about buying a           new home where going to live with one's man or woman, offers the possibility of           thinking about the date of marriage  to choose the date to get married, to go and live           in a new home, even to decide to have a child. All these things are possible during the           first months of the new year but the advice is to make such important decisions           between the months of March and April or between those of June and July and that is           when Jupiter and Saturn will also obtain the valid support of Mars that helps make           choices and make important decisions. We need only say something that is not useless.           With the transit of Jupiter you have to be careful about any betrayals, the desire to have           more than one love relationship because you are passing through Aquarius, this Jupiter           could make you think about it. Betraying your sentimental partner in this beautiful           period means ruining all the projects of your love life and therefore paying attention to           the choices you make. Only in rare cases, that is in the cases in which h the crisis in the relationship is very large and perhaps unsolvable, then the transit of Jupiter and Saturn can help to definitively close everything",
+           "money": "maybe you are looking for a new job? Aren't you happy with the work you have? Do you want to change cities? The answer to all these questions is in the transit of Jupiter and Saturn but also of Mars, which for many months will be positive and can create numerous opportunities to find a good job, to increase the number of customers if you are self-employed and to have a salary increase within your company or office. This is truly a great year at work and should not be wasted. It is hardly possible to have the support of Jupiter and Saturn together and above all if you intend to start a new professional activity or you want to follow new business and economic paths, here everything can be easier but obviously the commitment must be so much on your part. The best times to act and to try to do job interviews, send resumes or ask for job changes in the same workplace, are those in which the planet Mars will be favorable with your sky and therefore between March and April and between June and July. Many of you will have the desire to abandon old situations and start from scratch with new ideas and the planets will be able to support everything and allow you to realize, slowly, of course, what you want. At the economic level, however, the costs are many, the investments to start a new business are not few to do and therefore you do not believe you can earn immediately because you will have to leave a lot of money. Investments for the purchase of new useful tools for work, money to use to buy a new home or to change cities but under this sky you can have the great fortune of selling something like an apartment or solving legal problems. In fact, the solution could be very close and allow a good bureaucratic agreement to be reached.",
+          "luck":"when we talk about luck we usually describe planetary transits like those of Jupiter and Saturn that take place in this new year 2021. Perhaps very few people know that even the planet Saturn can bring very positive events into the life of an individual but these events come from so much effort and sacrifices. We have already mentioned that under this wonderful sky you can resolve any bureaucratic and legal problems by finding excellent solutions, but many of you could receive money in an unexpected way, perhaps for an inheritance, or have a great stroke of luck in the game. Obviously when we talk about gambling we must always be very careful and not spend excessive money because even the best planetary transits do not resolve these terrible vices. Maybe you could dream of some numbers and play a few euros without hoping for big economic winnings. If you want to buy a new car or a new house then the period between March and April is very good, even for the transfer of the furniture and everything you need to buy to furnish the new home. Physically you are very well and if you have had an illness, a health problem in the past during these months you could solve everything thanks to the support of good doctors and excellent care. Optimism and confidence grow within you and also the level of self-esteem that returns to be important and allows you to do a thousand things without feeling excessive fatigue. Traveling would be something to do throughout the year, of course if you can do it because the job almost certainly, but also the family, will often block you. Make small and long journeys to places never seen and different from the one you live in so that your mind can learn about new traditions, populations, different cultures to learn from. Great spirit of initiative, great confidence in yourself and a wonderful period to mature internally"
+      }
+        
+  }
+  console.log(json.aries["money"]);
+    </script>
+</body>
+</html>
