@@ -103,11 +103,11 @@ a.hitCounter.badge-done0 {
     background: #84C2F9;
     background: -webkit-radial-gradient(center, #84C2F9, #5077A7);
     background: -moz-radial-gradient(center, #84C2F9, #5077A7);
-    background: radial-gradient(ellipse at center, #84C2F9, #5077A7);
+    background: radial-gradient(ellipse at center, #84c2f93d, #5077a7);
     border-radius: 3px;
-    padding: 4px 4px 5px 35%;
+    padding: 0px 0px 0px 33%;
     margin: 0;
-    color: #220552;
+    color: #1b0e3c;
     width: 100%;
     font-size: 30px;
     cursor: inherit;
@@ -116,6 +116,25 @@ a.hitCounter.badge-done0 {
 
   }
 
-.d-block{
+.initial{
     display: block;
+}
+.content-head{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+.con-predict{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mt-t-10{
+    margin-top: 10px;
+}
+.content-main{
+    color: white;
+    font-size: 18px;
+}
+.clicked{
+    display: none;
 }
